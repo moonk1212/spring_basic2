@@ -99,11 +99,19 @@
 		
 		<!-- 데이터를 JSON형태로 파싱해주는 라이브러리 -->
 		<dependency>
+<<<<<<< HEAD
 		    <groupId>com.fasterxml.jackson.core</groupId>
 		    <artifactId>jackson-databind</artifactId>
 		    <version>2.9.9.1</version>
 		</dependency>		
 		
+=======
+		  <groupId>com.fasterxml.jackson.core</groupId>
+		  <artifactId>jackson-databind</artifactId>
+		  <version>[2.9.9.1,)</version>
+		</dependency>	
+
+>>>>>>> b841f1ecd845a7bc2813feb6024f8ce067f7462b
 		<!-- AOP 관련 라이브러리 -->	
 		<!-- AspectJ -->
 		<dependency>
