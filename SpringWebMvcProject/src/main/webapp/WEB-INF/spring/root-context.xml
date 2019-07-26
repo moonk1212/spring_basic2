@@ -13,9 +13,9 @@
 	<!-- 히카리 커넥션 풀 빈 등록 -->
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring?useSSL=false&amp;serverTimezone=Asia/Seoul" />
-		<property name="username" value="root" />
-		<property name="password" value="mysql" />
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/스키마이름?useSSL=false&amp;serverTimezone=Asia/Seoul" />
+		<property name="username" value="유저명" />
+		<property name="password" value="유저비번" />
 		
 		<property name="maximumPoolSize" value="10" />
 	</bean>
